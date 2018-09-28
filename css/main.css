@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: paleturquoise;
+}
+main {
+    margin: 100px auto;
+    text-align: center;
+    width: 40%;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 7em;
+    margin-bottom: 10%;
+}
+input {
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    font-size: 3em;
+    height: 4rem;
+    border-radius: 10%;
+}
+
+[type="button"] {
+    color: white;
+    background-color: lightslategray;
+    width: 4rem;
+    margin: 0 0.5em;
+}
+
+[type="text"] {
+    width: 3em;
+}
+
+.altColors {
+    color: lightslategray;
+    background-color: white;
+}
